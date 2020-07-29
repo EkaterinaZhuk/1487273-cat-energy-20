@@ -10,29 +10,30 @@
   </head>
   <body>
     <div class="container">
-      <header class="page-header">
-            <a class="page-header__logo">
+    <header class="header">
+      <div class="header__wrapper">
+        <div class="header__top">
+          <a class="header__link" href="index.html">
               <img src="https://via.placeholder.com/33x38" width="33" height="38" alt="иконка кота"/>
             </a>
-            <a class="page-header__logo2">
+            <a class="header__logo">
               <img src="https://via.placeholder.com/101x18" width="101" height="18" alt="логотип сайта"/>
             </a>
             <div class="menu">Мобильное меню</div>
+        </div>
+      </div>
       </header>
       <main>
         <section class="title-block">
           <h1>Каталог продукции</h1>
         </section>
-        <section class="catalog-list">
-          <ul class="catalog-list_wrapper">
-            <li class="catalog-list_item">
-              <img
-                src="https://via.placeholder.com/68x86"
-                width="68"
-                height="86"
-                alt="small chicken"
-              />
-              <div class="product_info">
+            <section class="catalog">
+      <h2 class="visually-hidden">Основное</h2>
+        <div class="catalog__wrapper">
+          <article class="catalog__item product">
+            <div class="product__wrapper">
+              <img src="https://via.placeholder.com/68x86" width="68" height="86" alt="small chicken"/>
+             <div class="product__description">
                 <h2>Cat energy PRO 500 Г</h2>
                 <table class="product__options">
                   <tr>
@@ -50,7 +51,6 @@
                 </table>
               </div>
               <button type="button">Заказать</button>
-            </li>
             <li class="catalog-list_item">
               <img
                 src="https://via.placeholder.com/84x101"
@@ -209,6 +209,8 @@
               </div>
               <button type="button">Заказать</button>
             </li>
+      </div>
+    </section>
             <li class="product_more">
               <img
                 src="https://via.placeholder.com/30x30"
